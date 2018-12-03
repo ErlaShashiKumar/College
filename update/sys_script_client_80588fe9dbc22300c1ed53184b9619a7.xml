@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>dept</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CS3</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var department = g_form.getValue('dept');
+
+	if(department=="cse")
+		{
+			g_form.addOption('subjects',1,'CO');
+			g_form.addOption('subjects',2,'DBMS');
+		}
+	else if(department=="ece")
+		
+		{
+			g_form.addOption('subjects',1,'LST');
+			g_form.addOption('subjects',2,'DSP');
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 11:14:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80588fe9dbc22300c1ed53184b9619a7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>CS3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="College" source="x_290472_college">30d87525db022300c1ed53184b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College">30d87525db022300c1ed53184b9619f3</sys_scope>
+        <sys_update_name>sys_script_client_80588fe9dbc22300c1ed53184b9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 11:39:41</sys_updated_on>
+        <table>x_290472_college_student</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

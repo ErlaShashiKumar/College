@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="student" max_length="40" name="x_290472_college_student" type="collection">
+        <element label="dept" max_length="40" name="dept" type="string"/>
+        <element label="Student ID" max_length="40" name="student_id" type="integer"/>
+        <element label="Student name" max_length="40" name="student_name" type="string"/>
+        <element choice="1" label="subjects" max_length="40" name="subjects" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

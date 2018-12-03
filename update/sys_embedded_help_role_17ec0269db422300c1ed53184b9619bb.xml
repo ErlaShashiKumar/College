@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_290472_college.student_user" name="x_290472_college.student_user">1fec02a5db422300c1ed53184b96193b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 06:48:20</sys_created_on>
+        <sys_id>17ec0269db422300c1ed53184b9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1fec02a5db422300c1ed53184b96193b</sys_name>
+        <sys_package display_value="College" source="x_290472_college">30d87525db022300c1ed53184b9619f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College">30d87525db022300c1ed53184b9619f3</sys_scope>
+        <sys_update_name>sys_embedded_help_role_17ec0269db422300c1ed53184b9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 06:48:20</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

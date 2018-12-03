@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="faculty" max_length="40" name="x_290472_college_faculty" type="collection">
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
